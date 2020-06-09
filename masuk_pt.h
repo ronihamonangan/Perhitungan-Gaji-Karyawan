@@ -26,8 +26,8 @@ private slots:
 
 private:
     Ui::masuk_pt *ui;
-    masuk_pt *login;
     Tentang_Aplikasi *Kelompok1;
+    masuk_pt *login;
     gaji *karyawan;
 };
 

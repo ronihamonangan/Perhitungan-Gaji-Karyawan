@@ -22,13 +22,11 @@ void masuk_pt::on_pushButton_clicked()
 
     if(username == "Indah Makmur,. Tbk" && password == "tobenice123"){
         hide();
-        login = new masuk_pt;
-        login -> show();
+        karyawan = new gaji(this);
+        karyawan -> show();
     }else {
         QMessageBox:: warning(this, "Keterangan", "Username atau Password anda salah");
     }
-    karyawan = new gaji(this);
-    karyawan -> show();
 }
 
 void masuk_pt::on_actionTentang_Aplikasi_triggered()

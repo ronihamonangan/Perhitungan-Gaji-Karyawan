@@ -394,7 +394,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Gaji Diterima             :</string>
+     <string>Gaji Diterima            :</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_9">
