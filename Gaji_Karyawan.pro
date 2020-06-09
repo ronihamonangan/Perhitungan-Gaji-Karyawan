@@ -16,17 +16,20 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    gaji.cpp \
     main.cpp \
     mainwindow.cpp \
     masuk_pt.cpp \
     tentang_aplikasi.cpp
 
 HEADERS += \
+    gaji.h \
     mainwindow.h \
     masuk_pt.h \
     tentang_aplikasi.h
 
 FORMS += \
+    gaji.ui \
     mainwindow.ui \
     masuk_pt.ui \
     tentang_aplikasi.ui

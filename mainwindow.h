@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include "tentang_aplikasi.h"
 #include "masuk_pt.h"
+#include "gaji.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -30,8 +31,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-
     Tentang_Aplikasi *Kelompok1;
     masuk_pt *login;
+    gaji *karyawan;
 };
 #endif // MAINWINDOW_H

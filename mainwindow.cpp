@@ -15,7 +15,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
 void MainWindow::on_actionTentang_Aplikasi_triggered()
 {
     Kelompok1 = new Tentang_Aplikasi(this);
@@ -31,4 +30,7 @@ void MainWindow::on_pushButton_clicked()
 {
     ui->label->setText("Selamat Datang di PT. Indah Makmur,. Tbk");
     ui->pushButton->setText("Login");
+
+    login = new masuk_pt(this);
+    login -> show();
 }
