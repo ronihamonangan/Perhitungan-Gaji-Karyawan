@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>747</width>
-    <height>435</height>
+    <height>409</height>
    </rect>
   </property>
   <property name="font">
@@ -24,10 +24,10 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>50</y>
-      <width>641</width>
-      <height>31</height>
+      <x>20</x>
+      <y>30</y>
+      <width>711</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="font">
@@ -38,7 +38,13 @@
      </font>
     </property>
     <property name="text">
-     <string>PT. Indah Makmur,. Tbk</string>
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>D:/Campoes/SEM.2/Struktur Data/Kali aja bisa/Untitled-1.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -146,11 +152,19 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionTentang_Aplikasi">
+   <property name="icon">
+    <iconset>
+     <normaloff>D:/Campoes/SEM.2/Struktur Data/Kali aja bisa/settings-512.png</normaloff>D:/Campoes/SEM.2/Struktur Data/Kali aja bisa/settings-512.png</iconset>
+   </property>
    <property name="text">
     <string>Tentang Aplikasi</string>
    </property>
   </action>
   <action name="actionKeluar">
+   <property name="icon">
+    <iconset>
+     <normaloff>D:/Campoes/SEM.2/Struktur Data/Kali aja bisa/restricted-512.png</normaloff>D:/Campoes/SEM.2/Struktur Data/Kali aja bisa/restricted-512.png</iconset>
+   </property>
    <property name="text">
     <string>Keluar</string>
    </property>

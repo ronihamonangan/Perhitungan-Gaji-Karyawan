@@ -98,6 +98,11 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
    </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
@@ -126,6 +131,31 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Manajer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kepala Divisi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Karyawan Tetap</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Karyawan Kontrak</string>
+     </property>
+    </item>
    </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
@@ -154,6 +184,21 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Menikah</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Belum Menikah</string>
+     </property>
+    </item>
    </widget>
   </widget>
   <widget class="QGroupBox" name="groupBox_2">
@@ -195,6 +240,11 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
    </widget>
    <widget class="QLabel" name="label_7">
     <property name="geometry">
@@ -223,6 +273,11 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
    </widget>
    <widget class="QLabel" name="label_8">
     <property name="geometry">
@@ -250,6 +305,11 @@
       <width>251</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
     </property>
     <property name="text">
      <string/>
@@ -282,6 +342,11 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -312,6 +377,11 @@
       <width>251</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
     </property>
     <property name="text">
      <string/>
@@ -344,6 +414,11 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -375,6 +450,11 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -405,6 +485,11 @@
       <width>251</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
     </property>
     <property name="text">
      <string/>
