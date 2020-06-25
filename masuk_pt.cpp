@@ -2,12 +2,22 @@
 #include "ui_masuk_pt.h"
 #include <QString>
 #include <QMessageBox>
+#include <QPixmap>
 
 masuk_pt::masuk_pt(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::masuk_pt)
 {
     ui->setupUi(this);
+    QPixmap pix("D:/Campoes/SEM.2/Struktur Data/Kali aja bisa/Untitled-1.png");
+    int w = ui -> label->width();
+    int h = ui -> label->height();
+    ui->label->setPixmap(pix.scaled(w,h,Qt::KeepAspectRatio));
+
+    QPixmap pic("D:/Campoes/SEM.2/Struktur Data/Project Aplikasi Sederhana/pc.png");
+    int p = ui -> label_2 -> width();
+    int t = ui -> label_2 -> height();
+    ui->label_2->setPixmap(pic.scaled(p,t,Qt::KeepAspectRatio));
 }
 
 masuk_pt::~masuk_pt()

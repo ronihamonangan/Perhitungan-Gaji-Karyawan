@@ -7,6 +7,15 @@ gaji::gaji(QWidget *parent) :
     ui(new Ui::gaji)
 {
     ui->setupUi(this);
+    QPixmap pix("D:/Campoes/SEM.2/Struktur Data/Kali aja bisa/Untitled-1.png");
+    int w = ui -> label_14->width();
+    int h = ui -> label_14->height();
+    ui->label_14->setPixmap(pix.scaled(w,h,Qt::KeepAspectRatio));
+
+    QPixmap pic("D:/Campoes/SEM.2/Struktur Data/Project Aplikasi Sederhana/Mentahan/User_font_awesome.svg.png");
+    int p = ui -> label_15 -> width();
+    int t = ui -> label_15 -> height();
+    ui->label_15->setPixmap(pic.scaled(p,t,Qt::KeepAspectRatio));
 }
 
 gaji::~gaji()

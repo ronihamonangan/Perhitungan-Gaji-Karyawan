@@ -8,6 +8,10 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    QPixmap pix("D:/Campoes/SEM.2/Struktur Data/Kali aja bisa/Untitled-1.png");
+    int w = ui -> label_2->width();
+    int h = ui -> label_2->height();
+    ui->label_2->setPixmap(pix.scaled(w,h,Qt::KeepAspectRatio));
 }
 
 MainWindow::~MainWindow()
